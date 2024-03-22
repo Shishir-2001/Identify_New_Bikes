@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-22T14:50:09 IST" name="Failed suite [Suite]" finished-at="2024-03-22T14:51:38 IST" duration-ms="88662">
+    <groups>
+      <group name="regression">
+        <method signature="TC003_GoogleLogin.verifyLoginPage()[pri:1, instance:TestCase.TC003_GoogleLogin@ae13544]" name="verifyLoginPage" class="TestCase.TC003_GoogleLogin"/>
+        <method signature="TC004_GoogleSignup.verifyLoginPage()[pri:1, instance:TestCase.TC004_GoogleSignup@4988d8b8]" name="verifyLoginPage" class="TestCase.TC004_GoogleSignup"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TC003_GoogleLogin.verifyLoginPage()[pri:1, instance:TestCase.TC003_GoogleLogin@ae13544]" name="verifyLoginPage" class="TestCase.TC003_GoogleLogin"/>
+      </group> <!-- smoke -->
+      <group name="master">
+        <method signature="TC003_GoogleLogin.verifyLoginPage()[pri:1, instance:TestCase.TC003_GoogleLogin@ae13544]" name="verifyLoginPage" class="TestCase.TC003_GoogleLogin"/>
+        <method signature="TC004_GoogleSignup.verifyLoginPage()[pri:1, instance:TestCase.TC004_GoogleSignup@4988d8b8]" name="verifyLoginPage" class="TestCase.TC004_GoogleSignup"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-03-22T14:50:09 IST" name="ChromeTest(failed)" finished-at="2024-03-22T14:51:38 IST" duration-ms="88662">
+      <class name="TestCase.TC004_GoogleSignup">
+        <test-method signature="verifyLoginPage()[pri:1, instance:TestCase.TC004_GoogleSignup@4988d8b8]" started-at="2024-03-22T14:51:27 IST" name="verifyLoginPage" finished-at="2024-03-22T14:51:36 IST" duration-ms="9332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+      </class> <!-- TestCase.TC004_GoogleSignup -->
+      <class name="TestCase.TC003_GoogleLogin">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String,java.lang.String)[pri:0, instance:TestCase.TC003_GoogleLogin@ae13544]" started-at="2024-03-22T14:50:09 IST" name="invokeBrowser" finished-at="2024-03-22T14:50:54 IST" duration-ms="44101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="verifyLoginPage()[pri:1, instance:TestCase.TC003_GoogleLogin@ae13544]" started-at="2024-03-22T14:50:54 IST" name="verifyLoginPage" finished-at="2024-03-22T14:51:27 IST" duration-ms="32881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.TC003_GoogleLogin@ae13544]" started-at="2024-03-22T14:51:37 IST" name="tearDown" finished-at="2024-03-22T14:51:38 IST" duration-ms="1175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.TC003_GoogleLogin -->
+    </test> <!-- ChromeTest(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
